@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+  android:orientation="horizontal"
+    android:columnCount="4"
+    android:rowCount="6"
+    tools:context="com.auxgroup.gridlayoutcalcular.MainActivity">
+
+    <TextView
+   android:layout_gravity="fill"
+        android:text="0"
+        android:id="@+id/textView"
+
+        android:paddingRight="20dp"
+       android:gravity="end"
+        android:background="@android:color/darker_gray"
+        android:textSize="50sp"
+        android:layout_columnSpan="4"
+     />
+
+
+    <Button
+  android:layout_gravity="fill"
+        android:text="回退"
+        android:id="@+id/button"
+        android:layout_row="1"
+        android:layout_columnSpan="2"
+     />
+
+    <Button
+        android:layout_gravity="fill"
+        android:text="清空"
+        android:id="@+id/button2"
+        android:layout_columnSpan="2"
+      />
+    <Button android:text="+"          android:layout_gravity="fill"/>
+    <Button android:text="1" android:layout_gravity="fill"/>
+    <Button android:text="2" android:layout_gravity="fill"/>
+    <Button android:text="3" android:layout_gravity="fill"/>
+    <Button android:text="-" android:layout_gravity="fill"/>
+    <Button android:text="4" android:layout_gravity="fill"/>
+    <Button android:text="5" android:layout_gravity="fill"/>
+    <Button android:text="6" android:layout_gravity="fill"/>
+    <Button android:text="*" android:layout_gravity="fill"/>
+    <Button android:text="7" android:layout_gravity="fill"/>
+    <Button android:text="8" android:layout_gravity="fill"/>
+    <Button android:text="9" android:layout_gravity="fill"/>
+    <Button android:text="/" android:layout_gravity="fill"/>
+    <Button android:text="0" android:layout_gravity="fill"/>
+    <Button android:text="." android:layout_gravity="fill"/>
+    <Button android:text="=" android:layout_gravity="fill"/>
+
+
+
+
+
+
+
+</GridLayout>
